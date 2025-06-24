@@ -69,8 +69,10 @@ fn main() -> ! {
         loop {
             display.show(&mut timer, letter_I, 1000);
             display.show(&mut timer, heart, 1000);
+//                        display.show(&mut timer, heart, 1000);
             display.show(&mut timer, letter_R, 1000);
             display.show(&mut timer, letter_u, 1000);
+                                    display.show(&mut timer, heart, 1000);
             display.show(&mut timer, letter_s, 1000);
             display.show(&mut timer, letter_t, 1000);
             display.clear();

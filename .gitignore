@@ -5,3 +5,4 @@ bloat_log*
 !.gitignore
 !.github
 !.cargo
+*.*~

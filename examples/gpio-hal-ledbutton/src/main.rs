@@ -16,6 +16,7 @@ fn main() -> ! {
 
     let mut led1 = board.display_pins.col1;
     let mut led2 = board.display_pins.col2;
+    let  led3 = board.display_pins.col3;
 
     loop {
         if let Ok(true) = board.buttons.button_a.is_high() {
