@@ -1,6 +1,6 @@
 [package]
 name = "microbit-common"
-version = "0.15.1"
+version = "0.16.0"
 description = "Implementation details for the BBC Micro:bit board support crates"
 edition = "2018"
 readme = "../README.md"
@@ -22,13 +22,13 @@ embedded-hal = "1.0.0"
 
 [dependencies.nrf51-hal]
 optional = true
-version = "0.18.0"
+version = "0.19.0"
 default-features = false
 features = ["rt", "xxAB-package"]
 
 [dependencies.nrf52833-hal]
 optional = true
-version = "0.18.0"
+version = "0.19.0"
 default-features = false
 features = ["rt"]
 
